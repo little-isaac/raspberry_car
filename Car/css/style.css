@@ -1,0 +1,2 @@
+.direction{position:absolute;text-transform:uppercase;width:90px}.direction[data-direction=forward]{top:8%;left:7%}.direction[data-direction=right]{top:17%;left:14%}.direction[data-direction=back]{top:17%;left:7%}.direction[data-direction=left]{top:17%;left:0%}.direction[data-direction=stop]{top:26%;left:7%}
+/*# sourceMappingURL=style.css.map */

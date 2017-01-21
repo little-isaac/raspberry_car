@@ -1,0 +1,39 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 21 Jan, 2017, 9:07:46 PM
+    Author     : milind
+*/
+$FORWARD:'forward';
+$RIGHT:'right';
+$BACKWARD:'back';
+$LEFT:'left';
+$STOP:'stop';
+.direction{
+    position: absolute;
+    text-transform: uppercase;
+    width:90px;
+    &[data-direction=#{$FORWARD}]{
+        top: 8%; 
+        left: 7%;
+    }
+    &[data-direction=#{$RIGHT}]{
+        top: 17%; 
+        left: 14%;
+    }
+    &[data-direction=#{$BACKWARD}]{
+        top: 17%; 
+        left: 7%;
+    }
+    &[data-direction=#{$LEFT}]{
+        top: 17%; 
+        left: 0%;
+    }
+    &[data-direction=#{$STOP}]{
+        top: 26%; 
+        left: 7%;
+    }
+}
