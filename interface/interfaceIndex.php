@@ -25,11 +25,11 @@ function moveForward() {
 }
 
 function moveRight() {
-    changeDirection('write', PIN_MOTOR_LEFT_FORWARD, 1);
-    changeDirection('write', PIN_MOTOR_LEFT_BACKWARD, 0);
+    changeDirection('write', PIN_MOTOR_LEFT_FORWARD, 0);
+    changeDirection('write', PIN_MOTOR_LEFT_BACKWARD, 1);
 
-    changeDirection('write', PIN_MOTOR_RIGHT_FORWARD, 0);
-    changeDirection('write', PIN_MOTOR_RIGHT_BACKWARD, 1);
+    changeDirection('write', PIN_MOTOR_RIGHT_FORWARD, 1);
+    changeDirection('write', PIN_MOTOR_RIGHT_BACKWARD, 0);
 }
 
 function moveBack() {
@@ -41,11 +41,11 @@ function moveBack() {
 }
 
 function moveLeft() {
-    changeDirection('write', PIN_MOTOR_LEFT_FORWARD, 0);
-    changeDirection('write', PIN_MOTOR_LEFT_BACKWARD, 1);
+    changeDirection('write', PIN_MOTOR_LEFT_FORWARD, 1);
+    changeDirection('write', PIN_MOTOR_LEFT_BACKWARD, 0);
 
-    changeDirection('write', PIN_MOTOR_RIGHT_FORWARD, 1);
-    changeDirection('write', PIN_MOTOR_RIGHT_BACKWARD, 0);
+    changeDirection('write', PIN_MOTOR_RIGHT_FORWARD, 0);
+    changeDirection('write', PIN_MOTOR_RIGHT_BACKWARD, 1);
 }
 
 function stop() {
