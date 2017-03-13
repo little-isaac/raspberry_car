@@ -20,9 +20,12 @@ define('PIN_MOTOR_LEFT_FORWARD',17);
 define('PIN_MOTOR_LEFT_BACKWARD',27);
 define('PIN_MOTOR_LEFT_LOGIC',22);
 
-define('PIN_MOTOR_RIGHT_FORWARD',13);
-define('PIN_MOTOR_RIGHT_BACKWARD',19);
-define('PIN_MOTOR_RIGHT_LOGIC',26);
+define('PIN_MOTOR_RIGHT_FORWARD',25);
+define('PIN_MOTOR_RIGHT_BACKWARD',24);
+define('PIN_MOTOR_RIGHT_LOGIC',23);
+//define('PIN_MOTOR_RIGHT_FORWARD',13);
+//define('PIN_MOTOR_RIGHT_BACKWARD',19);
+//define('PIN_MOTOR_RIGHT_LOGIC',26);
 
 function executeCommand($cmd){
     return shell_exec($cmd);
